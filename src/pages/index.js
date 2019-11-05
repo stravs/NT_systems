@@ -4,17 +4,28 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import About from "../components/about"
+import Icons from "../components/icons"
+import Motor from "../components/motor"
+import MotorImage from "../components/motor_img"
+import Battery from "../components/battery"
+import BatteryImage from "../components/battery_img"
+import Box from "../components/box"
+import BoxImage from "../components/box_img"
+import Control from "../components/control"
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <About />
+    <Icons />
+    <Motor />
+    <MotorImage />
+    <Battery />
+    <BatteryImage />
+    <Box />
+    <BoxImage />
+    <Control />
   </Layout>
 )
 
