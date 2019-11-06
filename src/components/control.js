@@ -3,9 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Controls = () => (
-  <div className="container">
-
-    <div className="about">
+  <div className="about">
+    <div className="container">
       <h2>User control (lever + interface)</h2>
       <p>User input includes throttle lever and LCD touch screen. Throttle lever is simple and ergonomic, with all marine functions. It’s modularly built, supporting control over multiple motorizations. Touch screen is easy to use. It typically shows all important data on first page, and details on additional submenus. It shows all data from components connected through CANbus, resulting in being used as handy tool for any service without major intervention.</p>
       <br/><br/>

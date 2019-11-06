@@ -24,17 +24,19 @@ const HeaderImage = ({ className }) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
-        <BackgroundImage
-          Tag="section"
-          className={className}
-          fluid={imageData}
-          backgroundColor={`#040e18`}
-        >
-          <div className="d-flex justify-content-center logo">
-            <LogoImage />
-          </div>
+        <div class="sticky-top z">
+          <BackgroundImage
+            Tag="section"
+            className={className}
+            fluid={imageData}
+            backgroundColor={`#040e18`}
+          >
+            <div className="d-flex justify-content-center logo">
+              <LogoImage />
+            </div>
 
-        </BackgroundImage>
+          </BackgroundImage>
+        </div>
       )
     }}
   />
@@ -43,10 +45,12 @@ const HeaderImage = ({ className }) => (
 
 
 const StyledHeaderImage = styled(HeaderImage)`
+  position: fixed;
   top: 0px;
+  left: 0px;
   width: 100%;
-  height: 450px;
-  background-position: center center;
+  height: 500px;
+  background-position: center right;
   background-repeat: repeat-y;
   background-size: cover;
 `

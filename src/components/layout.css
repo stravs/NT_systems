@@ -387,6 +387,11 @@ p {
   margin-bottom: 1.45rem;
   font-family: Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+table {
+  font-family: Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 figure {
   margin-left: 0;
   margin-right: 0;
@@ -632,6 +637,7 @@ pre tt:after {
 .about {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: white;
 }
 
 .clp {
@@ -645,14 +651,20 @@ pre tt:after {
 }
 
 .icons {
-  height: 500px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   width: 100%;
   background-color: #3a3a3c;
 }
 
 .logo {
-  margin-top: 0px;
+  margin-left: 0px;
 }
+
+.z {
+  z-index: -6;
+}
+
 
 @media only screen and (max-width: 480px) {
   html {

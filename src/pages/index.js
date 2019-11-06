@@ -13,6 +13,7 @@ import BatteryImage from "../components/battery_img"
 import Box from "../components/box"
 import BoxImage from "../components/box_img"
 import Control from "../components/control"
+import ControlImage from "../components/control_img"
 
 
 const IndexPage = () => (
@@ -26,6 +27,7 @@ const IndexPage = () => (
     <Box />
     <BoxImage />
     <Control />
+    <ControlImage />
   </Layout>
 )
 
