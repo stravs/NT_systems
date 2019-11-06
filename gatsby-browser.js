@@ -8,6 +8,7 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 // ES5 way
 // exports.onClientEntry = () => {
 // ES6 way

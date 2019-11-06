@@ -1,4 +1,4 @@
-html {
+  html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -385,7 +385,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-family: Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Doris, Helvetica, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 table {
@@ -665,6 +665,17 @@ pre tt:after {
   z-index: -6;
 }
 
+.btn-primary {
+  background-color: #2299d5;
+  font-family: Doris, Helvetica, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  border-radius: 0;
+}
+
+.ntElogo {
+  width: 100px;
+  height: 100px;
+}
+
 
 @media only screen and (max-width: 480px) {
   html {
@@ -673,5 +684,8 @@ pre tt:after {
   .about {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .ntElogo {
+    width: 100px;
   }
 }

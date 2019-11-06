@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import NTElectricLogoImage from "../components/logo_nt_electric"
 import GreenlineLogo from "../components/greenline"
@@ -10,19 +8,19 @@ import RECLogo from "../components/rec"
 import EULogo from "../components/eu"
 
 const Contact = () => (
-  <div className="about">
+  <div className="about" id="contact">
     <div className="container">
       <h2 className="text-center">Contact</h2>
       <br/>
       <div className="row">
-        <div className="col align-self-center">
-          <NTElectricLogoImage />
+        <div className="col align-self-center mr-0">
+          <NTElectricLogoImage className="ntElogo"/>
         </div>
         <div className="col">
-          <h5>NT Electric d.o.o.</h5>
-          <h5>Ješetova ulica 17, 4000 Kranj</h5>
-          <h5>Slovenia, EU</h5>
-          <h5>info@nt-electric.com</h5>
+          <p><strong>NT Electric d.o.o.</strong><br/>
+          <strong>Ješetova ulica 17, 4000 Kranj</strong><br/>
+          <strong>Slovenia, EU</strong><br/>
+          <strong>info@nt-electric.com</strong></p>
         </div>
       </div>
       <br/>

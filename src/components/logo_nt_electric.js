@@ -8,7 +8,7 @@ const NTElectricLogoImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "nt_electric_logo.png" }) {
         childImageSharp {
-          fixed(height: 80) {
+          fixed(height: 60) {
             ...GatsbyImageSharpFixed
           }
         }

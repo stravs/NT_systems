@@ -8,8 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from "./header"
+
 import HeaderImage from "./header_img"
 import Nav from "./nav"
 import "./layout.css"
@@ -29,6 +30,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>NT Systems</title>
+    </Helmet>
       <Nav />
       <HeaderImage />
 

@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import MotorRender from '../components/motor_render'
 import SingleMotorTable from '../components/s_motor_table'
