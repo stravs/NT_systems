@@ -14,6 +14,7 @@ import Box from "../components/box"
 import BoxImage from "../components/box_img"
 import Control from "../components/control"
 import ControlImage from "../components/control_img"
+import Contact from "../components/contact"
 
 
 const IndexPage = () => (
@@ -28,6 +29,7 @@ const IndexPage = () => (
     <BoxImage />
     <Control />
     <ControlImage />
+    <Contact />
   </Layout>
 )
 

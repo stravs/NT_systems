@@ -13,6 +13,7 @@ import Header from "./header"
 import HeaderImage from "./header_img"
 import Nav from "./nav"
 import "./layout.css"
+import Footer from "./footer"
 
 
 const Layout = ({ children }) => {
@@ -32,10 +33,8 @@ const Layout = ({ children }) => {
       <HeaderImage />
 
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, NT Systems
-      </footer>
 
+      <Footer />
     </>
   )
 }
