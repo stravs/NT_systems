@@ -13,24 +13,36 @@ import Control from "../components/control"
 import ControlImage from "../components/control_img"
 import Contact from "../components/contact"
 import HeaderImage from "../components/header_img"
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 
 const IndexPage = () => (
   <Layout>
-    <HeaderImage />
-    <About />
-    <Icons />
-    <Motor />
-    <MotorImage />
-    <Battery />
-    <div className="section-img">
-      <BatteryImage />
-    </div>
-    <Box />
-    <BoxImage />
-    <Control />
-    <ControlImage />
-    <Contact />
+    <ParallaxProvider>
+      <Parallax className="" y={[100, -50 ]} tagOuter="figure">
+        <HeaderImage />
+      </Parallax>
+      <About />
+      <Icons />
+      <Motor />
+      <Parallax className="custom-class" y={[100, -60]} tagOuter="figure">
+        <MotorImage />
+      </Parallax>
+      <Battery />
+      <Parallax className="custom-class" y={[100, -60]} tagOuter="figure">
+        <BatteryImage />
+      </Parallax>
+      <Box />
+      <Parallax className="custom-class" y={[100, -60]} tagOuter="figure">
+        <BoxImage />
+      </Parallax>
+      <Control />
+      <Parallax className="custom-class" y={[100, -60]} tagOuter="figure">
+        <ControlImage />
+      </Parallax>
+      <Contact />
+    </ParallaxProvider>
   </Layout>
 )
 
