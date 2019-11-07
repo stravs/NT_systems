@@ -712,4 +712,7 @@ nav {
     width: 300px;
     margin: auto;
   }
+  .section-img {
+    height: 200px;
+  }
 }

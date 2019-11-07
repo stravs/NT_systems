@@ -23,7 +23,9 @@ const IndexPage = () => (
     <Motor />
     <MotorImage />
     <Battery />
-    <BatteryImage />
+    <div className="section-img">
+      <BatteryImage />
+    </div>
     <Box />
     <BoxImage />
     <Control />

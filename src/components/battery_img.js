@@ -16,7 +16,7 @@ const BatteryImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static" className="section-img"/>
 }
 
 export default BatteryImage

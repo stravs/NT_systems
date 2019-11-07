@@ -16,7 +16,7 @@ const ControlImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="section-img"/>
 }
 
 export default ControlImage
