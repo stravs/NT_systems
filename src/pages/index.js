@@ -12,10 +12,12 @@ import BoxImage from "../components/box_img"
 import Control from "../components/control"
 import ControlImage from "../components/control_img"
 import Contact from "../components/contact"
+import HeaderImage from "../components/header_img"
 
 
 const IndexPage = () => (
   <Layout>
+    <HeaderImage />
     <About />
     <Icons />
     <Motor />

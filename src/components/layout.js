@@ -30,12 +30,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>NT Systems</title>
-    </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>NT Systems</title>
+      </Helmet>
       <Nav />
-      <HeaderImage />
+
 
       <main>{children}</main>
 

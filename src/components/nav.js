@@ -5,7 +5,7 @@ const Nav = () => (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="ml-auto" id="">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active mr-0">
+          <li className="nav-item">
             <a className="nav-link" href="#contact">
             <button type="button" class="btn btn-primary">CONTACT</button>
             </a>
