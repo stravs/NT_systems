@@ -24,7 +24,7 @@ const HeaderImage = ({ className }) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
-        <div class="sticky-top z">
+        <div class="sticky-top z header-img">
           <BackgroundImage
             Tag="section"
             className={className}
@@ -51,9 +51,13 @@ const StyledHeaderImage = styled(HeaderImage)`
   left: 0px;
   width: 100%;
   height: 500px;
+  z-index:-4;
   background-position: center right;
   background-repeat: repeat-y;
   background-size: cover;
+  @media screen and (max-width: 600px) {
+    height: 300px;
+  }
 `
 
 export default StyledHeaderImage

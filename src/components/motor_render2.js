@@ -8,15 +8,15 @@ const MotorRender2 = () => {
     query {
       placeholderImage: file(relativePath: { eq: "motor.png" }) {
         childImageSharp {
-          fixed(width: 350) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static"/>
 }
 
 export default MotorRender2

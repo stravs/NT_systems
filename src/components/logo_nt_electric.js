@@ -8,15 +8,15 @@ const NTElectricLogoImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "nt_electric_logo.png" }) {
         childImageSharp {
-          fixed(height: 60) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} className='logo'/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static"/>
 }
 
 export default NTElectricLogoImage

@@ -11,12 +11,12 @@ const Motor = () => (
   <div className="about">
     <div className="container">
       <h2 className="text-center">Electric motor</h2>
-      <div className="row align-self-center text-center">
+      <div className="row text-center">
         <div className="col-md-6">
           <MotorRender2 />
         </div>
         <div className="col-md-6">
-          <MotorRender />
+          < MotorRender />
         </div>
       </div>
       <p>We are using the permanent magnet synchronous motor with best in class power density which is up to 10 kW/kg peak power. This performance is by itself within the state-of-the-art range, but the engine has reduced weight and is plug&play ready: you only mount the motor into the boat, connect the power supply, the communication cables and the sea water for cooling and the motor is ready.</p>
@@ -29,10 +29,9 @@ const Motor = () => (
       <br/>
       <IsoMotorImage />
       <br/>
-      <MotorCurveImg />
       <div className="row">
         <div className="col-md-6">
-          <div className="wrapper">
+          <div className="">
             <MotorCurveImg />
           </div>
 
