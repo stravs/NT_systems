@@ -3,12 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const MotorRender = () => {
+const MotorRender2 = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "motor2.png" }) {
+      placeholderImage: file(relativePath: { eq: "motor.png" }) {
         childImageSharp {
-          fixed(width: 400) {
+          fixed(width: 350) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -19,4 +19,4 @@ const MotorRender = () => {
   return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
 }
 
-export default MotorRender
+export default MotorRender2
