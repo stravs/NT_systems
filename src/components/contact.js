@@ -13,10 +13,10 @@ const Contact = () => (
       <h2 className="text-center">Contact</h2>
       <br/>
       <div className="row">
-        <div className="col align-self-center mr-0">
+        <div className="col-md-6 align-self-center mr-0">
           <NTElectricLogoImage className="ntElogo"/>
         </div>
-        <div className="col">
+        <div className="col-md-6">
           <p><strong>NT Electric d.o.o.</strong><br/>
           <strong>Ješetova ulica 17, 4000 Kranj</strong><br/>
           <strong>Slovenia, EU</strong><br/>

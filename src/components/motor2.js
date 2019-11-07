@@ -12,10 +12,10 @@ const Motor = () => (
     <div className="container">
       <h2 className="text-center">Electric motor</h2>
       <div className="row align-self-center text-center">
-        <div className="col">
+        <div className="col-md-6">
           <MotorRender2 />
         </div>
-        <div className="col">
+        <div className="col-md-6">
           <MotorRender />
         </div>
       </div>
@@ -30,10 +30,10 @@ const Motor = () => (
       <IsoMotorImage />
       <br/>
       <div className="row align-self-center text-center">
-        <div className="col">
+        <div className="col-md-6">
           <MotorCurveImg />
         </div>
-        <div className="col">
+        <div className="col-md-6">
           <MotorCurve2Img />
         </div>
       </div>
