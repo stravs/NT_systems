@@ -19,6 +19,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 const IndexPage = () => (
   <Layout>
+<<<<<<< HEAD
     <ParallaxProvider>
       <Parallax className="" y={[100, -50 ]} tagOuter="figure">
         <HeaderImage />
@@ -43,6 +44,20 @@ const IndexPage = () => (
       </Parallax>
       <Contact />
     </ParallaxProvider>
+=======
+    <HeaderImage />
+    <About />
+    <Icons />
+    <Motor />
+    <MotorImage />
+    <Battery />
+    <BatteryImage />
+    <Box />
+    <BoxImage />
+    <Control />
+    <ControlImage />
+    <Contact />
+>>>>>>> parent of 120b0eb... size section photos on mobile
   </Layout>
 )
 

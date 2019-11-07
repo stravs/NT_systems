@@ -16,7 +16,7 @@ const BoxImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static" className="section-img"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static"/>
 }
 
 export default BoxImage

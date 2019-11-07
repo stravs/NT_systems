@@ -16,7 +16,7 @@ const MotorImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="section-img"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default MotorImage
