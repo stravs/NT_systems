@@ -6,9 +6,9 @@ import Img from "gatsby-image"
 const VZSLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "partners/vzs.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "partners/vzs.png" }) {
         childImageSharp {
-          fixed(width: 150) {
+          fixed(width: 200) {
             ...GatsbyImageSharpFixed
           }
         }

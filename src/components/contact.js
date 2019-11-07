@@ -17,6 +17,7 @@ const Contact = () => (
           <NTElectricLogoImage className="ntElogo"/>
         </div>
         <div className="col-md-6">
+          <br/>
           <p><strong>NT Electric d.o.o.</strong><br/>
           <strong>Ješetova ulica 17, 4000 Kranj</strong><br/>
           <strong>Slovenia, EU</strong><br/>

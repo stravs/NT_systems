@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const MetronLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "partners/metron.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "partners/metron.png" }) {
         childImageSharp {
           fixed(width: 200) {
             ...GatsbyImageSharpFixed
