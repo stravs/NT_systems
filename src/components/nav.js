@@ -7,7 +7,7 @@ const Nav = () => (
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <a className="nav-link" href="#contact">
-            <button type="button" class="btn btn-primary">CONTACT</button>
+            <button type="button" class="btn btn-primary">Contact</button>
             </a>
           </li>
         </ul>

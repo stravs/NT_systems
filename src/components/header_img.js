@@ -55,6 +55,9 @@ const StyledHeaderImage = styled(HeaderImage)`
   background-position: center right;
   background-repeat: repeat-y;
   background-size: cover;
+  @media screen and (max-width: 1400px) {
+    height: 350px;
+  }
   @media screen and (max-width: 600px) {
     height: 300px;
   }

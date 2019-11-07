@@ -686,7 +686,17 @@ nav {
   z-index: 100 !important;
 }
 
-@media only screen and (max-width: 480px) {
+
+
+@media only screen and (max-width: 1400px) {
+  .logo-wrap {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   html {
     font-size: 100%;
   }
