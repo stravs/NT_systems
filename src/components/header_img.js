@@ -31,9 +31,10 @@ const HeaderImage = ({ className }) => (
             fluid={imageData}
             backgroundColor={`#040e18`}
           >
-            <div className="d-flex justify-content-center logo">
+            <div className="logo-wrap">
               <LogoImage />
             </div>
+
 
           </BackgroundImage>
         </div>

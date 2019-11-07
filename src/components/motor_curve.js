@@ -1,3 +1,4 @@
+
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -8,15 +9,15 @@ const MotorCurveImg = () => {
     query {
       placeholderImage: file(relativePath: { eq: "motor_curve.png" }) {
         childImageSharp {
-          fixed(width: 400) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 200, maxHeight: 200) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
 }
 
 export default MotorCurveImg

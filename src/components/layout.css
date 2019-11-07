@@ -627,7 +627,7 @@ pre tt:after {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: -1030;
 }
 
 .white {
@@ -676,6 +676,16 @@ pre tt:after {
   height: 100px;
 }
 
+.logo-wrap {
+  height: 450px;
+  width: 450px;
+  margin: auto;
+}
+
+.wrapper {
+  height: 100px;
+  width: 100px;
+}
 
 @media only screen and (max-width: 480px) {
   html {
@@ -687,5 +697,10 @@ pre tt:after {
   }
   .ntElogo {
     width: 100px;
+  }
+  .logo-wrap {
+    height: 250px;
+    width: 250px;
+    margin: auto;
   }
 }

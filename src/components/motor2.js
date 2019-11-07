@@ -29,9 +29,13 @@ const Motor = () => (
       <br/>
       <IsoMotorImage />
       <br/>
-      <div className="row align-self-center text-center">
+      <MotorCurveImg />
+      <div className="row">
         <div className="col-md-6">
-          <MotorCurveImg />
+          <div className="wrapper">
+            <MotorCurveImg />
+          </div>
+
         </div>
         <div className="col-md-6">
           <MotorCurve2Img />

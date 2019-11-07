@@ -20,3 +20,4 @@ const BatteryGraph = () => {
 }
 
 export default BatteryGraph
+ 
