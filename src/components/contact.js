@@ -17,7 +17,7 @@ const Contact = () => (
           <strong>Slovenia, EU</strong><br/>
           <strong>info@nt-electric.com</strong><br/>
           <strong>+386 40 326 593</strong><br/>
-          <strong>VAT No: SI15375501</strong></p>
+          <strong>VAT ID: SI15375501</strong></p>
         </div>
       </div>
     </div>

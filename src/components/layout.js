@@ -31,8 +31,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <title>NT Systems</title>
+        <meta name="description" content="NT Systems is an advanced next generation integrated electric propulsion system for emission-free commercial and leisure boating."/>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"
+        />
+        <meta property="og:site_name" content="NT Systems" />
       </Helmet>
       <Nav />
 
