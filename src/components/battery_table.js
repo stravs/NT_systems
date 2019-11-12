@@ -14,9 +14,9 @@ const BatteryTable = () => (
       <tbody>
         <tr>
           <th scope="row">Chemistry</th>
-          <td>LYP (Lithium Yttrium Iron Phosphate)</td>
-          <td>LiPo (Lithium polymer)</td>
-          <td>LTO (Lithium titanate)</td>
+          <td>LYP</td>
+          <td>LiPo</td>
+          <td>LTO</td>
         </tr>
         <tr>
           <th scope="row">Energy capacity – kWh</th>
@@ -61,12 +61,6 @@ const BatteryTable = () => (
           <td>25000</td>
         </tr>
         <tr>
-          <th scope="row">Cooling</th>
-          <td>Air</td>
-          <td>Air</td>
-          <td>Air</td>
-        </tr>
-        <tr>
           <th scope="row">Weight – kg</th>
           <td>183</td>
           <td>99</td>
@@ -77,12 +71,6 @@ const BatteryTable = () => (
           <td>Winston</td>
           <td>Kokam</td>
           <td>Yinlong</td>
-        </tr>
-        <tr>
-          <th scope="row">Battery management</th>
-          <td>REC Master + 7x slave</td>
-          <td>REC Master + 6x slave</td>
-          <td>REC master + 9x slave</td>
         </tr>
       </tbody>
     </table>

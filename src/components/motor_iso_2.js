@@ -3,12 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const MotorCurve2Img = () => {
+const IsoMotorImage2 = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "motor_curve2.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "motor_iso_angled.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 700) {
+          fluid(maxWidth: 900) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -19,4 +19,4 @@ const MotorCurve2Img = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} objectPosition="static"/>
 }
 
-export default MotorCurve2Img
+export default IsoMotorImage2

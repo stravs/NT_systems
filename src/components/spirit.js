@@ -3,10 +3,10 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-const EULogo = () => {
+const Spirit = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "partners/eu_skladi.png" }) {
+      placeholderImage: file(relativePath: { eq: "partners/spirit.png" }) {
         childImageSharp {
           fixed(width: 300) {
             ...GatsbyImageSharpFixed
@@ -19,4 +19,4 @@ const EULogo = () => {
   return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
 }
 
-export default EULogo
+export default Spirit

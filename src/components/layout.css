@@ -638,6 +638,13 @@ pre tt:after {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: white;
+  z-index: 7 !important;
+}
+
+.future {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: white;
 }
 
 .clp {
@@ -655,6 +662,7 @@ pre tt:after {
   padding-bottom: 70px;
   width: 100%;
   background-color: #3a3a3c;
+  z-index: 12;
 }
 
 .logo {
@@ -662,8 +670,10 @@ pre tt:after {
 }
 
 .z {
-  z-index: -10;
+  z-index: -10 !important;
 }
+
+
 
 .btn-primary {
   background-color: #2299d5;
@@ -677,22 +687,53 @@ pre tt:after {
   margin: auto;
 }
 
+
+
 .wrapper {
   height: 100px;
   width: 100px;
 }
 
-nav {
-  z-index: 100 !important;
+.ntElogoo {
+  height: 350px;
+  width: 350px;
 }
+
+nav {
+  z-index: 1 !important;
+}
+
+.nav-item {
+  width: 300px;
+  border-width: 2px;
+  z-index: 1;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  right: 150px;
+}
+
 
 .section-img {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
+
+
+.ntElogo {
+  margin: auto;
+}
+
+
+#contact-btn {
+  z-index: -10;
+}
+
 
 
 
@@ -712,9 +753,7 @@ nav {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .ntElogo {
-    width: 100px;
-  }
+
   .logo-wrap {
     height: 300px;
     width: 300px;

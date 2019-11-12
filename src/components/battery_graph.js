@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const BatteryGraph = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "battery_graph.png" }) {
+      placeholderImage: file(relativePath: { eq: "battery_graph.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 900) {
             ...GatsbyImageSharpFluid
@@ -20,4 +20,3 @@ const BatteryGraph = () => {
 }
 
 export default BatteryGraph
- 

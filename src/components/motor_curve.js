@@ -6,9 +6,9 @@ import Img from "gatsby-image"
 const MotorCurveImg = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "motor_curve.png" }) {
+      placeholderImage: file(relativePath: { eq: "motor_curve.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 700) {
             ...GatsbyImageSharpFluid
           }
         }

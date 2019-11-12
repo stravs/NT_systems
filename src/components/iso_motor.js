@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const IsoMotorImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "motor_iso.png" }) {
+      placeholderImage: file(relativePath: { eq: "motor_iso_straight.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 900) {
             ...GatsbyImageSharpFluid
