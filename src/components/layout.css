@@ -697,6 +697,7 @@ pre tt:after {
 .ntElogoo {
   height: 350px;
   width: 350px;
+  margin: auto;
 }
 
 nav {
@@ -704,7 +705,7 @@ nav {
 }
 
 .nav-item {
-  width: 300px;
+  width: 133px;
   border-width: 2px;
   z-index: 1;
 }
@@ -757,6 +758,11 @@ header {
   .logo-wrap {
     height: 300px;
     width: 300px;
+    margin: auto;
+  }
+  .ntElogoo {
+    height: 200px;
+    width: 200px;
     margin: auto;
   }
 }

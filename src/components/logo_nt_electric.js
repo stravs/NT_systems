@@ -16,7 +16,7 @@ const NTElectricLogoImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="ntElogoo" objectPosition="static"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="ntElogoo"/>
 }
 
 export default NTElectricLogoImage
